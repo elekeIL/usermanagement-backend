@@ -18,12 +18,19 @@ Node-UM uses a number of open source projects to work properly:
 ### Installation
 
 Node-UM requires [node.js](https://nodejs.org),  [Typescript](https://www.typescriptlang.org), [Mongodb](https://www.mongodb.com)
+To be able to run this project you will need to follow these steps:
+- Run npm install
+- Set up your mongo DB database.
+- Create a usermanagement database
+- Navigate to the package.json file and run this command "tsc && node build/index.js"
+- If you do not have tsc on your local machine, then install it using this command: npm install tsc
 
-Install the dependencies and devDependencies and import DB Collections from DB folder.
-then run the below script to start the server.
+After following these steps you should be able to run this project successfully.
 
-```sh
-$ npm install
-$ npm start
+
+Enjoy!
+
+
+
 ```
 
